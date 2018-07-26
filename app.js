@@ -117,7 +117,7 @@ const clock = document.querySelector('.clock');
 
 deck.addEventListener('click', event => {
   if (time===0){
-    let timer = setInterval(countTimer, 1000);
+    timer = setInterval(countTimer, 1000);
 
     function countTimer() {
      ++totalSeconds;
@@ -135,12 +135,10 @@ deck.addEventListener('click', event => {
   }
 });
 
-/*function stopClock() {
+function stopClock() {
   clearInterval(timer);
-}*/
-
-//stopClock();
+}
 //------------------------------------------------------------------------------
 //modal
 
-const modal = document.querySelector('.modal_display');
+const modal = document.querySelector('.modal-display');

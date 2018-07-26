@@ -108,7 +108,7 @@ h1 {
     cursor: pointer;
 }
 
-.modal{
-display: flex;
-  background: rgba (0,0,0,0.438);
+.modal-display {
+  position: absolute;
+  background: rgba(240, 230, 140);
 }
