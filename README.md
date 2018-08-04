@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Key Code Elements](#key code elements)
+* [Key-Code-Elements](#key_code_elements)
 * [Contributing](#contributing)
 * [Acknowledgments](#acknowledgments)
 
