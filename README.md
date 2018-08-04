@@ -5,7 +5,7 @@
 * [Instructions](#instructions)
 * [Key_Code_Elements](#key_code_elements)
 * [Contributing](#contributing)
-* [Acknowledgments](#acknowledgments)
+* [Acknowledgements](#acknowledgments)
 
 ## Instructions
 
