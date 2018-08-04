@@ -24,7 +24,7 @@ This is an interactive project that allows you to play the classic memory game. 
 
 This repository is open to reviewing pull requests.  Please share your thoughts!
 
-##Acknowledgements
+## Acknowledgements
 
 This project and starter code was guided by Udacity resources and is a part of the Front-End Development Nanodegree Program.
 
