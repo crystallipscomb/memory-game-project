@@ -3,18 +3,28 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Key Code Elements](#key code elements)
 * [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This is an interactive project that allows you to play the classic memory game.  The objective of the game is to match the eight pairs of cards by flipping over two cards with the same unique design at a time.  This project was built using HTML, CSS, and JavaScript.  
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Key Code Elements
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+1. Game Setup and Start: This section provides the initial set up of the cards by creating a card list,  writing card data to the cards, having a function to start the game, and having a function to end the game.
+2. Card Functionality: This section defines the conditional for a pair of cards to match and gives the behavior if they do or don't match.  It also counts a move at the end of each turn (flipping two cards over) and writes the current number of stars that a user has.
+3. Star Control: This section controls when a player loses stars throughout the game.
+4. Timer: This section controls the game timer, including starting and stopping.
+5. Modal: This section pops up a modal at the end of the game to congratulate the player on winning and show their final score.
+6. Reset: This section is to reset the modal, timer, moves, stars, cards, and number of matches so that the player can start a new game.  This happens if the player clicks the restart button at any point during the game or if they click the play again button in the modal window.  
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository is open to reviewing pull requests.  Please share your thoughts!
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+##Acknowledgements
+
+This project and starter code was guided by Udacity resources and is a part of the Front-End Development Nanodegree Program.
+
