@@ -82,7 +82,7 @@ h1 {
 }
 
 /*
- * Styles for the Score Panel
+ * Styles for the score panel
  */
 
 .score-panel {
@@ -108,7 +108,70 @@ h1 {
     cursor: pointer;
 }
 
-.modal-display {
-  position: absolute;
-  background: rgba(240, 230, 140);
+/*
+ * Styles for the congratulations modal popup
+ */
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 180, 227, 0.3);
+}
+
+.modal-block {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  background: #dbdbdb;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.hide {
+  display:none
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5em;
+  border-bottom: 1px solid darkgray;
+}
+
+.modal-exit {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.modal-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid darkgray;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding:1em;
+}
+
+.modal-button-replay {
+  background-color: lightgreen;
+  text-decoration-style: solid;
+  width: 70px;
+  height: 40px;
+}
+
+.modal-button-cancel {
+  background-color: darkgray;
+  text-decoration-style: solid;
+  width: 70px;
+  height: 40px;
 }
